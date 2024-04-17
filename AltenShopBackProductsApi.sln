@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenShopBackProductsApi", "AltenShopBackProductsApi\AltenShopBackProductsApi.csproj", "{BB476553-B90E-4132-A99A-70D83DBEEA77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D386B555-0C1B-444F-867F-481A077AB662} = {D386B555-0C1B-444F-867F-481A077AB662}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenShopBackProductsApi.Entities", "AltenShopBackProductsApi.Model\AltenShopBackProductsApi.Entities.csproj", "{D386B555-0C1B-444F-867F-481A077AB662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenShopBackProductsApi.UnitTests", "AltenShopBackProductsApi.UnitTests\AltenShopBackProductsApi.UnitTests.csproj", "{31EAA782-97AD-4C21-A3E5-8E56B5320B6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB476553-B90E-4132-A99A-70D83DBEEA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB476553-B90E-4132-A99A-70D83DBEEA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB476553-B90E-4132-A99A-70D83DBEEA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB476553-B90E-4132-A99A-70D83DBEEA77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D386B555-0C1B-444F-867F-481A077AB662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D386B555-0C1B-444F-867F-481A077AB662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D386B555-0C1B-444F-867F-481A077AB662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D386B555-0C1B-444F-867F-481A077AB662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31EAA782-97AD-4C21-A3E5-8E56B5320B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EAA782-97AD-4C21-A3E5-8E56B5320B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EAA782-97AD-4C21-A3E5-8E56B5320B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EAA782-97AD-4C21-A3E5-8E56B5320B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F6974CF-C22C-4CB8-BE0A-3D9810803721}
+	EndGlobalSection
+EndGlobal
